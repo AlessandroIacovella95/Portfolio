@@ -2,41 +2,56 @@
 import Card from "./Card.vue";
 export default {
   name: "AppProject",
-  components: {
-    Card,
-  },
   data() {
     return {
       cardItems: [
         {
-          image: { path: "../../images/Boolando.png", alt: "Boolando-img" },
-          video: { path: "../../videos/Booleando.mp4", alt: "Boolando-video" },
+          image: {
+            path: "../../Boolando.png",
+            alt: "Boolando-img",
+          },
+          video: {
+            path: "../../videos/Booleando.mp4",
+            alt: "Boolando-video",
+          },
         },
         {
-          image: { path: "../../images/Boolflix.png", alt: "Boolflix-img" },
-          video: { path: "/../../videos/Boolflix.mp4", alt: "Boolflix-video" },
+          image: { path: "../../Boolflix.png", alt: "Boolflix-img" },
+          video: {
+            path: "/../../videos/Boolflix.mp4",
+            alt: "Boolflix-video",
+          },
         },
         {
-          image: { path: "../../images/Boolzapp.png", alt: "Boolzapp-img" },
-          video: { path: "../../videos/Boolzapp.mp4", alt: "Boolzapp-video" },
+          image: { path: "../../Boolzapp.png", alt: "Boolzapp-img" },
+          video: {
+            path: "../../videos/Boolzapp.mp4",
+            alt: "Boolzapp-video",
+          },
         },
         {
-          image: { path: "../../images/dc-comics.png", alt: "Dc-Comics-img" },
+          image: {
+            path: "../../dc-comics.png",
+            alt: "Dc-Comics-img",
+          },
           video: {
             path: "../../videos/VideoComics.mp4",
             alt: "Dc-Comics-video",
           },
         },
         {
-          image: { path: "../../images/Discord.png", alt: "Discord-img" },
+          image: { path: "../../Discord.png", alt: "Discord-img" },
           video: { path: "../../videos/Discord.mp4", alt: "Discord-video" },
         },
         {
-          image: { path: "../../images/Spotify.png", alt: "Dropbox-img" },
-          video: { path: "../../videos/Spotify.mp4", alt: "Dropbox-video" },
+          image: { path: "../../Spotify.png", alt: "spotify-img" },
+          video: { path: "../../videos/Spotify.mp4", alt: "spotify-video" },
         },
       ],
     };
+  },
+  components: {
+    Card,
   },
 };
 </script>
@@ -52,38 +67,38 @@ export default {
                 class="d-flex align-items-center justify-content-center w-100"
               >
                 <li>
-                  <img src="../../images/html5.png" alt="" />
+                  <img src="../assets/images/html5.png" alt="" />
                 </li>
                 <li>
-                  <img id="css" src="../../images/css3.png" alt="" />
+                  <img id="css" src="../assets/images/css3.png" alt="" />
                 </li>
                 <li>
-                  <img src="../../images/Bootstrap.png" alt="" />
+                  <img src="../assets/images/Bootstrap.png" alt="" />
                 </li>
                 <li>
-                  <img src="../../images/JavaScript-logo.png" alt="" />
+                  <img src="../assets/images/JavaScript-logo.png" alt="" />
                 </li>
                 <li>
-                  <img src="../../images/vue-js-icon.png" alt="" />
+                  <img src="../assets/images/vue-js-icon.png" alt="" />
                 </li>
                 <li>
-                  <img src="../../images/vitejs.png" alt="" />
+                  <img src="../assets/images/vitejs.png" alt="" />
                 </li>
                 <li>
-                  <img src="../../images/sass.png" alt="" />
+                  <img src="../assets/images/sass.png" alt="" />
                 </li>
                 <li>
-                  <img src="../../images/PHP.png" alt="" />
+                  <img src="../assets/images/PHP.png" alt="" />
                 </li>
                 <li>
-                  <img src="../../images/laravel.png" alt="" />
+                  <img src="../assets/images/laravel.png" alt="" />
                 </li>
                 <li>
-                  <img src="../../images/PhpMyAdmin.png" alt="" />
+                  <img src="../assets/images/PhpMyAdmin.png" alt="" />
                 </li>
 
                 <li>
-                  <img src="../images/MySQL.png" alt="" />
+                  <img src="../assets/images/MySQL.png" alt="" />
                 </li>
               </ul>
             </div>
