@@ -31,7 +31,7 @@ export default {
         <div class="col-12 col-md-6">
           <div class="text-center py-5">
             <img
-              src="../../public/images/AlessandroIacovella.jpg"
+              src="../../images/AlessandroIacovella.jpg"
               alt="Foto-Profilo"
             />
           </div>

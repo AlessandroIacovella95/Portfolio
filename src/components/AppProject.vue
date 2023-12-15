@@ -52,10 +52,10 @@ export default {
                 class="d-flex align-items-center justify-content-center w-100"
               >
                 <li>
-                  <img src="../../images/HTML5.png" alt="" />
+                  <img src="../../images/html5.png" alt="" />
                 </li>
                 <li>
-                  <img id="css" src="../../images/CSS3.png" alt="" />
+                  <img id="css" src="../../images/css3.png" alt="" />
                 </li>
                 <li>
                   <img src="../../images/Bootstrap.png" alt="" />
@@ -83,7 +83,7 @@ export default {
                 </li>
 
                 <li>
-                  <img src="../assets/MySQL.png" alt="" />
+                  <img src="../images/MySQL.png" alt="" />
                 </li>
               </ul>
             </div>
