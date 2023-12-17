@@ -32,7 +32,12 @@ export default {
 
 <template>
   <div class="col-lg-5 col-md-10 mb-3 me-3">
-    <div class="card" @click="toggleContent">
+    <div
+      class="card"
+      @click.prevent="toggleContent"
+      @touchstart.prevent="toggleContent"
+      @click="toggleContent"
+    >
       <img
         v-if="cardType === 'image'"
         :src="content.image.path"
