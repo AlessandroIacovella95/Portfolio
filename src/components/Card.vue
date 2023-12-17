@@ -41,10 +41,13 @@ export default {
       />
       <video
         v-else-if="cardType === 'video'"
-        :src="content.video.path"
         controls
+        playsinline
+        preload="auto"
         class="card-img-top"
-      ></video>
+      >
+        <source :src="content.video.path" type="video/mp4" />
+      </video>
 
       <div class="card-body d-flex align-items-center justify-content-between">
         <div class="icons">
