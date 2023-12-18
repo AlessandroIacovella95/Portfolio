@@ -32,12 +32,7 @@ export default {
 
 <template>
   <div class="col-lg-5 col-md-10 mb-3 me-3">
-    <div
-      class="card"
-      @click.prevent="toggleContent"
-      @touchstart.prevent="toggleContent"
-      @click="toggleContent"
-    >
+    <div class="card">
       <img
         v-if="cardType === 'image'"
         :src="content.image.path"
@@ -46,6 +41,7 @@ export default {
       />
       <video
         v-else-if="cardType === 'video'"
+        crossorigin="anonymous"
         controls
         playsinline
         preload="auto"
@@ -60,11 +56,17 @@ export default {
             class="icon_custom me-2"
             icon="fa-solid fa-image"
             @click.stop="changeToImage"
+            @click.prevent="toggleContent"
+            @touchstart.prevent="toggleContent"
+            @click="toggleContent"
           />
           <font-awesome-icon
             class="icon_custom"
             icon="fa-solid fa-video"
             @click.stop="changeToVideo"
+            @click.prevent="toggleContent"
+            @touchstart.prevent="toggleContent"
+            @click="toggleContent"
           />
         </div>
       </div>
